@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulaire</title>
+</head>
+<body>
+		<!--La balise permet de declarer un formulaire, j'ai ajouté un label pour le titre-->
+	<form>
+			<label for="nom">Nom</label> </br>
+			<input type="text" id="nom" name="nom" placeholder="mettez votre nom" /> </br>
+			<label for="email">Email</label> </br>
+			<input type="email" id="email" name="email" placeholder="mettez votre email" /> </br>
+			<label for="password">Mot de passe</label> </br>
+			<input type="password" id="password" name="passeword" placeholder="mettez votre mot de passe" /> </br>
+			<label for="message">Message</label> </br>
+			<textarea name="message" id="message" cols="30" rows="10">Lorem </textarea>
+
+<hr>
+
+			<label for="eat">Repas</label> </br>
+			<select name="choisir votre plats" id="plat">
+				<option value="">--Choisir un plat!--</option>
+				<option value="Poulet">Poulet</option>
+				<option value="Spaghetti">Spaghetti</option>
+				<option value="Soupe">Filet mignon</option>
+				<option value="Quiche">Quiche</option>
+				<option value="Tomate farcie">Tomate farcie</option>
+				<option value="Couscous">Couscous</option>
+				<option value="Endive jambon">Endive jambon</option>
+			</select>
+
+		<h1>Selectionnez votre plat</h1>
+			<select multiple>
+				<option>Poulet</option>
+				<option>Spaghetti</option>
+				<option>Filet mignon</option>
+				<option>Quiche</option>
+				<option>Tomate farcie</option>
+				<option>Couscous</option>
+				<option>Endive jambon</option>
+				
+			</select>
+
+<hr>
+
+		<fieldset>
+					<ul>
+						<li>
+							<input type="checkbox" checked id="italie" name="italie" value="italie">
+							<label for="italie">Italie</label>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<input type="checkbox" id="italie" name="france" value="france">
+							<label for="france">France</label>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<input type="checkbox" id="japon" name="japon" value="japon">
+							<label for="japon">Japon</label>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<input type="checkbox" id="senegal" name="senegal" value="senegal">
+							<label for="senegal">Senegal</label>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<input type="checkbox" id="espagne" name="espagne" value="espagne">
+							<label for="espagne">Espagne</label>
+						
+						</li>
+					</ul>
+		</fieldset>
+			
+<hr>
+
+		<fieldset>
+					<legend>Pays</legend>
+
+					<input type="radio" id="japon">
+					<label for="japon">Japon</label>
+
+					<input type="radio" id="france">
+					<label for="france">France</label>
+
+					<input type="radio" id="espagne">
+					<label for="espagne">Espagne</label>
+
+					<input type="radio" id="japon">
+					<label for="Croatie">Croatie</label>
+
+		</fieldset>
+
+<hr>
+
+<!--lien externe-->
+
+<a href="https://www.google.fr">Google</a> </br>
+
+
+
+<!--lien interne-->
+
+<a href="indextest.html">Index</a>
+
+<hr>
+
+<!--exercice formulaire-->
+
+			<!--civilité-->
+		
+			Civilité
+			<input id="mademoiselle" type="radio" name="mademoiselle">
+			<label for="mademoiselle">Mademoiselle</label>
+			<input id="madame" type="radio" name="madame">
+			<label for="madame">Madame</label> 
+			<input checked id="monsieur" type="radio" name="monsieur">
+			<label for="monsieur">Monsieur</label></br>
+			</br>
+
+			<!--prénom et nom-->
+
+			<label for="nom">Nom / Prénom</label>
+			<input type="text" id="nom" name="nom"></br>
+			</br>
+
+			<!--adresse-->
+
+			<label for="adresse">Adresse</label>
+			<input type="text" id="adresse" name="adresse" placeholder="mettez votre adresse" /></form><br>
+			</br>
+
+			<!--code postal et ville-->
+
+			<label for="codepostal/ville">Code postal / Ville</label>
+			<input type="text" id="codepostal" name="codepostal"/></form>
+			<input type="text" id="ville" name="ville" placeholder="Jendouba" /></form> </br>
+			</br>
+
+			<!--pays-->
+
+				<label for="pays">Pays</label>
+			<select name="pays" id="pays">
+				<option value="">Tunisie</option>
+				<option value="Espagne">Espagne</option>
+				<option value="France">France</option>
+				<option value="Japon">Japon</option>
+				<option value="Portugal">Portugal</option>
+				<option value="Suède">Suède</option>
+			</select> </br>
+			</br>
+
+			<!--plateforme(s)-->
+
+					Plateforme(s)
+					<input checked id="windows" type="checkbox" id="windows">
+					<label for="windows">Windows</label>
+
+					<input checked id="macintosh" type="checkbox" id="macintosh">
+					<label for="macintosh">Macintosh</label>
+
+					<input type="checkbox" id="unix">
+					<label for="unix">Unix</label> </br>
+				</br>
+
+			<!--application(s)-->
+
+					Application(s)
+			<select multiple>
+				<option>Bureautique</option>
+				<option>DAO</option>
+				<option>Statistiques</option>
+				<option>SGBD</option>
+				<option>Internet</option>
+			</select> </br>
+			</br>
+
+			<!--soumettre le formulaire et effacer-->
+
+			<button><Center>Soumettre le formulaire</Center></button>
+			<button><center>Effacer<center></button>
+
+
+
+	</form>
+
+</body>
+</html>

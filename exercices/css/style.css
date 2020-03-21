@@ -1,0 +1,106 @@
+span
+{
+	color:red;
+	font-weight: yellow
+}
+
+p
+{
+	color:blue;
+}
+
+.carre1
+{
+	height: 150px;
+    width: 150px;
+    background-color: red;
+ }
+
+ .carre2
+{
+	height: 150px;
+    width: 150px;
+    background-color: blue;
+ }
+
+ .carre3
+{
+	height: 150px;
+    width: 150px;
+    background-color: yellow;
+ }
+
+ .carre4
+{
+	height: 150px;
+    width: 150px;
+    background-color: pink;
+ }
+
+ .carre5
+{
+    height: 70px;
+    width: 150px;
+    background-color: white;
+    border:2px solid black;
+
+
+    position: obsolute;
+    top:5px;
+    left:30px
+ }
+
+  .carre6
+{
+    height: 110px;
+    width: 150px;
+    background-color:white;
+    border:2px solid red; 
+
+
+    position: obsolute;
+    top:5px;
+    left:30px
+ }
+
+  .carre7
+{
+    height: 150px;
+    width: 150px;
+    background-color:white;
+    border:2px solid black;
+
+     position: obsolute;
+    top:5px;
+    left:30px
+}  
+
+.Coucou
+{
+    color:black;
+    margin:0px 10px 10px;
+}
+
+.Texte2
+{
+    color:black;
+    margin:15px 15px 30px;
+}
+
+.Texte3
+{
+    color:black;
+    margin:0px 40px 30px;
+}
+}
+
+.Texte4
+{
+    color:black;
+}
+
+
+
+
+
+    text-align: center;

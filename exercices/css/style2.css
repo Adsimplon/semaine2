@@ -1,0 +1,42 @@
+div.carre div {
+	background-color:#fe8282
+}
+div.carre div~div {
+	background-color:#530000
+}
+div.carre div~div~div {
+	background-color:#fe2020
+}
+div.carre div~div~div~div {
+	background-color:#b80000
+}
+div.carre div~div~div~div~div {
+	background-color:#fe5c5c
+}
+div.carre div~div~div~div~div~div {
+	background-color:#db0000
+}
+div.carre div~div~div~div~div~div~div {
+	background-color:#6b0000
+}
+div.carre div~div~div~div~div~div~div~div {
+	background-color:#fe3b3b
+}
+div.carre div~div~div~div~div~div~div~div~div {
+	background-color:#fe4c4c
+}
+
+
+
+
+div.carre {
+	width:300px;
+	height:300px;
+	border:solid 1px black
+}
+
+div.carre div {
+	float:left;
+	width:33.33%;
+	height:100px
+}
